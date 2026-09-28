@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAP — Works</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="cursor-fake"></div>
+    <div class="site-frame">
+        <header class="topbar">
+            <a class="mark" href="index.html" aria-label="MAP — Inicio">
+                <img src="assets/map.svg" alt="MAP">
+            </a>
+            <nav class="nav">
+                <a class="nav-link" href="index.html">HOME</a>
+                <a class="nav-link" href="about.html">ABOUT</a>
+                <a class="nav-link" href="contact.html">CONTACT</a>
+            </nav>
+            <button class="menu-toggle" aria-label="Abrir menú">MENU</button>
+        </header>
+
+        <main class="page">
+            <section class="page-intro">
+                <p class="eyebrow">01 / SELECTED WORKS</p>
+                <h1>WORK<span>S.</span></h1>
+                <p class="intro-copy">Una selección de proyectos de dirección de arte, identidad, diseño digital, contenido y motion graphics.</p>
+            </section>
+
+            <div class="filter-bar">
+                <button class="filter active" data-filter="all">ALL</button>
+                <button class="filter" data-filter="branding">BRANDING</button>
+                <button class="filter" data-filter="digital">DIGITAL</button>
+                <button class="filter" data-filter="motion">MOTION</button>
+                <button class="filter" data-filter="editorial">EDITORIAL</button>
+            </div>
+
+            <section class="works-grid">
+                <a class="work-item wide" data-category="branding" href="project-branding.html">
+                    <div class="project-image image-blue">01</div><small>BRANDING / 2025</small>
+                    <h2>NOISE — VISUAL IDENTITY</h2></a>
+                <a class="work-item" data-category="motion" href="project-motion.html">
+                    <div class="project-image image-black">02</div><small>MOTION / 2025</small>
+                    <h2>FRAME — MOTION SYSTEM</h2></a>
+                <a class="work-item" data-category="editorial" href="project-editorial.html">
+                    <div class="project-image image-white">03</div><small>EDITORIAL / 2024</small>
+                    <h2>FORM — EDITORIAL DESIGN</h2></a>
+                <a class="work-item" data-category="digital" href="project-branding.html">
+                    <div class="project-image image-pattern">04</div><small>DIGITAL / 2024</small>
+                    <h2>GRID — CAMPAIGN SYSTEM</h2></a>
+                <a class="work-item" data-category="branding" href="project-branding.html">
+                    <div class="project-image image-black blue-type">05</div><small>ART DIRECTION / 2023</small>
+                    <h2>OFFSET — CAMPAIGN</h2></a>
+                <a class="work-item" data-category="motion" href="project-motion.html">
+                    <div class="project-image image-blue">06</div><small>CONTENT / 2023</small>
+                    <h2>LOOP — SOCIAL MOTION</h2></a>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <span id="datetime"></span>
+            <span>MAP © 2026</span>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
